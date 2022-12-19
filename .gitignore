@@ -1,0 +1,31 @@
+# Ignore all hidden files and directories except .gitignore
+.*
+!.gitignore
+
+# Ignore core-provided files
+/web/*.php
+/web/*.txt
+/web/*.md
+/web/web.config
+/web/profiles
+
+# Ignore composer-managed dependencies
+/vendor
+/web/core
+/web/modules/contrib
+/web/themes/contrib
+
+# Ignore configuration files that may contain sensitive information
+/web/sites/example.sites.php
+/web/sites/example.settings.local.php
+/web/sites/development.services.yml
+/web/sites/default/settings.php
+/web/sites/default/default.settings.php
+/web/sites/default/default.services.yml
+
+# Ignore paths that contain user-generated content
+/web/sites/*/files
+/web/sites/*/private
+
+# Ignore multi-site test environment.
+/web/sites/simpletest
