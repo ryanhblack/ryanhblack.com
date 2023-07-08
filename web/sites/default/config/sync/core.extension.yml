@@ -45,4 +45,6 @@ module:
   standard: 1000
 theme:
   claro: 0
+  stable9: 0
+  bootstrap5: 0
 profile: standard

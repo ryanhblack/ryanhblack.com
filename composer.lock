@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7f67e1f17c443778fb5a72fe058b3b9",
+    "content-hash": "a13c66fa7cc094223393a4d8087e6364",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -490,28 +490,27 @@
             "time": "2022-12-14T08:49:07+00:00"
         },
         {
-            "name": "drupal/bootstrap_barrio",
-            "version": "5.5.10",
+            "name": "drupal/bootstrap5",
+            "version": "3.0.8",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "5.5.10"
+                "url": "https://git.drupalcode.org/project/bootstrap5.git",
+                "reference": "3.0.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.5.10.zip",
-                "reference": "5.5.10",
-                "shasum": "4015cae184be99d08329878e609b814700a73e60"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap5-3.0.8.zip",
+                "reference": "3.0.8",
+                "shasum": "e9968a03960900ce0e4ef5bd9a8694156f302774"
             },
             "require": {
-                "drupal/core": "^9.4 || ^10",
-                "twbs/bootstrap": "^5.0.0"
+                "drupal/core": "^9.4 || ^10"
             },
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "5.5.10",
-                    "datestamp": "1679769012",
+                    "version": "3.0.8",
+                    "datestamp": "1685974134",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -524,23 +523,20 @@
             ],
             "authors": [
                 {
-                    "name": "Alberto Siles",
-                    "homepage": "https://www.drupal.org/user/827704",
-                    "email": "alberto@siles.pe"
+                    "name": "Vladimir Roudakov (vladimiraus)",
+                    "homepage": "https://www.drupal.org/u/vladimiraus",
+                    "role": "Maintainer"
                 },
                 {
-                    "name": "Ricardo.Castaneda",
-                    "homepage": "https://www.drupal.org/user/3520894"
-                },
-                {
-                    "name": "WillAcon",
-                    "homepage": "https://www.drupal.org/user/2824325"
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
                 }
             ],
-            "description": "Bootstrap 5 base theme.",
-            "homepage": "https://www.drupal.org/project/bootstrap_barrio",
+            "description": "Master theme using Bootstrap 5: powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap5",
             "support": {
-                "source": "https://git.drupalcode.org/project/bootstrap_barrio"
+                "source": "https://git.drupalcode.org/project/bootstrap5",
+                "issues": "https://www.drupal.org/project/issues/bootstrap5"
             }
         },
         {
@@ -4465,56 +4461,6 @@
             "time": "2023-04-28T13:28:14+00:00"
         },
         {
-            "name": "twbs/bootstrap",
-            "version": "v5.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "cb021439c683d9805e2864c58095b92d405e9b11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/cb021439c683d9805e2864c58095b92d405e9b11",
-                "reference": "cb021439c683d9805e2864c58095b92d405e9b11",
-                "shasum": ""
-            },
-            "replace": {
-                "twitter/bootstrap": "self.version"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Otto",
-                    "email": "markdotto@gmail.com"
-                },
-                {
-                    "name": "Jacob Thornton",
-                    "email": "jacobthornton@gmail.com"
-                }
-            ],
-            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
-            "homepage": "https://getbootstrap.com/",
-            "keywords": [
-                "JS",
-                "css",
-                "framework",
-                "front-end",
-                "mobile-first",
-                "responsive",
-                "sass",
-                "web"
-            ],
-            "support": {
-                "issues": "https://github.com/twbs/bootstrap/issues",
-                "source": "https://github.com/twbs/bootstrap/tree/v5.2.3"
-            },
-            "time": "2022-11-21T18:19:01+00:00"
-        },
-        {
             "name": "twig/twig",
             "version": "v3.6.1",
             "source": {
@@ -6130,5 +6076,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
