@@ -44,8 +44,5 @@ module:
   views: 10
   standard: 1000
 theme:
-  olivero: 0
   claro: 0
-  bootstrap_barrio: 0
-  bootstrap_barrio_subtheme: 0
 profile: standard
