@@ -15,9 +15,9 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://Facebook Profile.jpg'
+  path: ''
 favicon:
   use_default: 1
 subtheme_folder: themes/custom
-subtheme_name: 'B5 subtheme'
-subtheme_machine_name: b5subtheme
+subtheme_name: 'Ryan Black'
+subtheme_machine_name: ryanhblack
