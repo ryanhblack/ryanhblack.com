@@ -1,0 +1,6 @@
+name: "Ryan Black"
+type: theme
+description: 'The theme for Ryan''s personal website.'
+core_version_requirement: '>=9.0'
+libraries: { }
+base theme: bootstrap5
