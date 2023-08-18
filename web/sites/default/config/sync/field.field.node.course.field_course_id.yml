@@ -1,0 +1,19 @@
+uuid: bf62f029-ce39-45f4-86fe-148d64f0c22c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_id
+    - node.type.course
+id: node.course.field_course_id
+field_name: field_course_id
+entity_type: node
+bundle: course
+label: 'Course ID'
+description: 'The ID of the Course (e.g. "CS 142")'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

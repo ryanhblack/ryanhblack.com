@@ -1,0 +1,8 @@
+uuid: 0567085d-e19d-41e5-96ef-fd132c718dc0
+langcode: en
+status: true
+dependencies: {  }
+id: resume_date
+label: 'Resume Date'
+locked: false
+pattern: 'F Y'

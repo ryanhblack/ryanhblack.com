@@ -1,0 +1,72 @@
+uuid: 26c0e846-e5a8-436b-99e1-00e7f95e09a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.experience.body
+    - field.field.node.experience.field_company
+    - field.field.node.experience.field_end_date
+    - field.field.node.experience.field_location
+    - field.field.node.experience.field_skills
+    - field.field.node.experience.field_start_date
+    - node.type.experience
+  module:
+    - datetime
+    - text
+    - user
+id: node.experience.default
+targetEntityType: node
+bundle: experience
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_company:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_end_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_location:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_skills:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  links: true

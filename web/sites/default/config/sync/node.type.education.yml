@@ -1,0 +1,18 @@
+uuid: d2910b1c-38e0-4fb1-90fa-4c03b25bbbc0
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Education
+type: education
+description: 'Experience gained by attending school'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,84 @@
+uuid: b2090c7a-f043-4997-8978-2fcc92f80eef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.education.body
+    - field.field.node.education.field_courses
+    - field.field.node.education.field_end_date
+    - field.field.node.education.field_field_of_study
+    - field.field.node.education.field_gpa
+    - field.field.node.education.field_location
+    - field.field.node.education.field_start_date
+    - node.type.education
+  module:
+    - datetime
+    - text
+    - user
+id: node.education.default
+targetEntityType: node
+bundle: education
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_courses:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_end_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_field_of_study:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_gpa:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_location:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden:
+  links: true

@@ -1,0 +1,21 @@
+uuid: 15169605-c8d9-4984-b543-8ec2c9d69961
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.experience
+  module:
+    - datetime
+id: node.experience.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: experience
+label: 'End Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

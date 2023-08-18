@@ -1,0 +1,21 @@
+uuid: df8d677a-01fe-4a70-a9db-324bc36036f2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_end_date
+    - node.type.education
+  module:
+    - datetime
+id: node.education.field_end_date
+field_name: field_end_date
+entity_type: node
+bundle: education
+label: 'End Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

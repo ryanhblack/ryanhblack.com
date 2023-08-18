@@ -1,0 +1,23 @@
+uuid: 7126db40-a088-4836-96de-ed1234e99fda
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gpa
+    - node.type.education
+id: node.education.field_gpa
+field_name: field_gpa
+entity_type: node
+bundle: education
+label: GPA
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

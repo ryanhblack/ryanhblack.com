@@ -1,0 +1,59 @@
+uuid: d378a9ab-166e-4345-bc36-792131d9d247
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.experience.body
+    - field.field.node.experience.field_company
+    - field.field.node.experience.field_end_date
+    - field.field.node.experience.field_location
+    - field.field.node.experience.field_skills
+    - field.field.node.experience.field_start_date
+    - node.type.experience
+  module:
+    - datetime
+    - user
+id: node.experience.teaser
+targetEntityType: node
+bundle: experience
+mode: teaser
+content:
+  field_company:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_end_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_location:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_start_date:
+    type: datetime_default
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: resume_date
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  body: true
+  field_skills: true
+  links: true

@@ -1,0 +1,23 @@
+uuid: df9e7b42-18fb-4ba9-8054-0667a903fa94
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_proficiency
+    - taxonomy.vocabulary.skills
+id: taxonomy_term.skills.field_proficiency
+field_name: field_proficiency
+entity_type: taxonomy_term
+bundle: skills
+label: Proficiency
+description: 'Scale of 1-10'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

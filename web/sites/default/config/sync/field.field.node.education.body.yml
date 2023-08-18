@@ -1,0 +1,24 @@
+uuid: 11246baf-2854-46ea-94af-132e538fee4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.education
+  module:
+    - text
+id: node.education.body
+field_name: body
+entity_type: node
+bundle: education
+label: Summary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

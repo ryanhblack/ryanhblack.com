@@ -1,0 +1,19 @@
+uuid: a233f12b-dbd4-47a0-84f3-4ad472bc301b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_of_study
+    - node.type.education
+id: node.education.field_field_of_study
+field_name: field_field_of_study
+entity_type: node
+bundle: education
+label: 'Field of Study'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 7411808c-0b21-4b6c-9a5a-406c4f2c127e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.education
+id: node.education.field_location
+field_name: field_location
+entity_type: node
+bundle: education
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

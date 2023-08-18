@@ -1,0 +1,8 @@
+uuid: e7a490fa-3956-4525-bed7-60b52d448415
+langcode: en
+status: true
+dependencies: {  }
+name: Skills
+vid: skills
+description: 'Skills acquired doing an activity'
+weight: 0
